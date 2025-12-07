@@ -2,7 +2,7 @@
     $start = 50;
     $zeroCount = 0;
 
-    foreach(file("../q1/q1Input.txt") as $line) {
+    foreach(file("q1Input.txt") as $line) {
         $leftTurn = explode('L', $line);
         $rightTurn = explode('R', $line);
 
